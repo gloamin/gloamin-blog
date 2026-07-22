@@ -1,0 +1,14 @@
+# Zola build output
+public/
+
+# Temporary build cache
+.zola-cache/
+
+# macOS
+.DS_Store
+
+# Vim
+*.swp
+
+# VS Code
+.vscode/
