@@ -1,37 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>
         {% block title %}
-            {{ config.title }}
+        {{ config.title }}
         {% endblock title %}
     </title>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="{{ get_url(path="style.css") }}">
 </head>
 
 <body>
 
-<header>
-    <h1><a href="/">{{ config.title }}</a></h1>
-    <p>{{ config.description }}</p>
+<header class="masthead">
 
-    <hr>
+    <div class="site-title">
+        <a href="{{ get_url(path="") }}">
+            {{ config.title }}
+        </a>
+    </div>
+
+
+    {% if config.extra.tagline_line1 and config.extra.tagline_line2 %}
+    <div class="tagline">
+        {{ config.extra.tagline_line1 }}<br>
+        {{ config.extra.tagline_line2 }}
+    </div>
+    {% endif %}
+
+
+    <nav>
+        <a href="{{ get_url(path="") }}">Home</a>
+        <a href="{{ get_url(path="blog") }}">Blog</a>
+        <a href="{{ get_url(path="about") }}">About</a>
+    </nav>
+
 </header>
+
 
 <main>
 {% block content %}
 {% endblock content %}
 </main>
 
+
 <footer>
-    <hr>
-    <p>&copy; 2026</p>
+
+<p>
+© {{ now() | date(format="%Y") }}
+</p>
+
+{% if config.generate_feeds %}
+<p>
+    <a href="{{ get_url(path='blog/atom.xml') }}">
+        RSS
+    </a>
+</p>
+{% endif %}
+
 </footer>
+
 
 </body>
 </html>

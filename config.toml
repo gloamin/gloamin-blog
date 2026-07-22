@@ -1,7 +1,7 @@
 # The URL the site will be built for
 base_url = "https://www.gloamin.com"
 title = "Gloamin"
-description = "Gane is the day and mirk's the night || But we'll ne'er stray for faute o' light"
+description = "Gane is the day and mirk's the night | But we'll ne'er stray for faute o' light"
 
 author = "gloamindev"
 
@@ -18,3 +18,5 @@ highlight_code = true
 
 [extra]
 # Put all your custom variables here
+tagline1 = "Gane is the day and mirk's the night"
+tagline2 = "But we'll ne'er stray for faute o' light"

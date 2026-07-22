@@ -2,8 +2,6 @@
 title = "Home"
 +++
 
-# Welcome
+Welcome to **Gloamin**.
 
-This is my blog.
-
-I'm building this site for fun and profit.
+This is where I write about software, computing, books, and whatever else happens to capture my attention.
