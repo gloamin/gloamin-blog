@@ -1,3 +1,6 @@
+#Zola Public
+public/
+
 # Temporary build cache
 .zola-cache/
 
