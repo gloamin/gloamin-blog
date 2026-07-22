@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Gloamin - Blog</title>
+    <subtitle>Gane is the day and mirk&#x27;s the night | But we&#x27;ll ne&#x27;er stray for faute o&#x27; light</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://www.gloamin.com/blog/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://www.gloamin.com/blog/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-07-18T00:00:00+00:00</updated>
+    <id>https://www.gloamin.com/blog/atom.xml</id>
+    <entry xml:lang="en">
+        <title>An Evening Walk</title>
+        <published>2026-07-18T00:00:00+00:00</published>
+        <updated>2026-07-18T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              gloamindev
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://www.gloamin.com/blog/an-evening-walk/"/>
+        <id>https://www.gloamin.com/blog/an-evening-walk/</id>
+        
+        <content type="html" xml:base="https://www.gloamin.com/blog/an-evening-walk/">&lt;p&gt;There is a particular moment at the edge of evening when the world seems to become quieter.&lt;&#x2F;p&gt;
+&lt;p&gt;The sharp edges of the day begin to soften. The roads empty, the light fades, and familiar places take on a different character.&lt;&#x2F;p&gt;
+&lt;p&gt;These are the hours I find myself returning to most often. Not quite day, not yet night. A small space between things.&lt;&#x2F;p&gt;
+&lt;p&gt;Perhaps that is what draws me to making things on the web as well: the chance to create a small place apart from the noise.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Notes on Making Things</title>
+        <published>2026-07-12T00:00:00+00:00</published>
+        <updated>2026-07-12T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              gloamindev
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://www.gloamin.com/blog/notes-on-making-things/"/>
+        <id>https://www.gloamin.com/blog/notes-on-making-things/</id>
+        
+        <content type="html" xml:base="https://www.gloamin.com/blog/notes-on-making-things/">&lt;p&gt;I have always enjoyed the beginning of a project.&lt;&#x2F;p&gt;
+&lt;p&gt;The first blank page. The empty directory. The moment before the shape of something has been decided.&lt;&#x2F;p&gt;
+&lt;p&gt;There is a freedom in those early stages. Nothing is fixed yet, and every choice feels possible.&lt;&#x2F;p&gt;
+&lt;p&gt;Of course, eventually the details arrive: structure, organisation, maintenance, and all the small decisions that turn an idea into something real.&lt;&#x2F;p&gt;
+&lt;p&gt;But the beginning remains my favourite part.&lt;&#x2F;p&gt;
+&lt;p&gt;A quiet room. A cup of tea. A few lines of code. Something slowly taking form.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

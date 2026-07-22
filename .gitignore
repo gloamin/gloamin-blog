@@ -1,6 +1,3 @@
-# Zola build output
-public/
-
 # Temporary build cache
 .zola-cache/
 
