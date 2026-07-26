@@ -1,0 +1,16 @@
+{% set img = resize_image(path=src, width=900, op="fit_width") %}
+
+<img
+    src="{{ img.url }}"
+    alt="{{ alt }}"
+    loading="lazy">
+
+    <figure>
+
+{% if caption %}
+<figcaption>
+    {{ caption }}
+</figcaption>
+{% endif %}
+
+</figure>
