@@ -269,3 +269,15 @@ pre code {
 .not-found p {
     color: #aaa397;
 }
+
+img {
+    display: block;
+
+    max-width: 100%;
+
+    height: auto;
+
+    margin: 2rem auto;
+
+    border-radius: 4px;
+}

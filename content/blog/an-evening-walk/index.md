@@ -11,4 +11,4 @@ These are the hours I find myself returning to most often. Not quite day, not ye
 
 Perhaps that is what draws me to making things on the web as well: the chance to create a small place apart from the noise.
 
-25/07
+![A walk in the forest](a-walk-in-the-forest.jpg)
