@@ -5,6 +5,9 @@ description = "Gane is the day and mirk's the night | But we'll ne'er stray for 
 
 author = "gloamindev"
 
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = false
 

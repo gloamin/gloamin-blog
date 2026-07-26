@@ -11,7 +11,16 @@
         {% endblock title %}
     </title>
 
-    <link rel="stylesheet" href="{{ get_url(path="style.css") }}">
+    <link rel="stylesheet" href="{{ get_url(path='style.css') }}">
+
+    {% if config.generate_feeds %}
+    <link
+        rel="alternate"
+        type="application/atom+xml"
+        title="{{ config.title }} Blog Feed"
+        href="{{ get_url(path='blog/atom.xml') }}">
+    {% endif %}
+
 </head>
 
 <body>
@@ -19,24 +28,27 @@
 <header class="masthead">
 
     <div class="site-title">
-        <a href="{{ get_url(path="") }}">
+        <a href="{{ get_url(path='') }}">
             {{ config.title }}
         </a>
     </div>
 
 
-    {% if config.extra.tagline_line1 and config.extra.tagline_line2 %}
+    {% if config.extra.tagline1 and config.extra.tagline2 %}
     <div class="tagline">
-        {{ config.extra.tagline_line1 }}<br>
-        {{ config.extra.tagline_line2 }}
+        {{ config.extra.tagline1 }}<br>
+        {{ config.extra.tagline2 }}
     </div>
     {% endif %}
 
 
     <nav>
-        <a href="{{ get_url(path="") }}">Home</a>
-        <a href="{{ get_url(path="blog") }}">Blog</a>
-        <a href="{{ get_url(path="about") }}">About</a>
+        <a href="{{ get_url(path='') }}">Home</a>
+        <a href="{{ get_url(path='blog') }}">Blog</a>
+        <a href="{{ get_url(path='about') }}">About</a>
+        {% if config.generate_feeds %}
+        <a href="{{ get_url(path='blog/atom.xml') }}">RSS</a>
+        {% endif %}
     </nav>
 
 </header>
@@ -49,19 +61,9 @@
 
 
 <footer>
-
 <p>
 © {{ now() | date(format="%Y") }}
 </p>
-
-{% if config.generate_feeds %}
-<p>
-    <a href="{{ get_url(path='blog/atom.xml') }}">
-        RSS
-    </a>
-</p>
-{% endif %}
-
 </footer>
 
 
